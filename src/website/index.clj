@@ -18,7 +18,7 @@
      (app-links
       ["BandFunk" "images/bandfunk_icon_small.png" "bandfunk.html"]
       ["MobileMuni" "images/mobilemuni_icon.png" "mobile_muni_sf.html"]
-      ["Mozilla Ignite" "images/mozilla.png" "https://mozillaignite.org/apps/420/"])]]
+      ["Mozilla Ignite" "images/mozilla.png" "mozilla.html"])]]
    
    [:div#team
     [:div.container
