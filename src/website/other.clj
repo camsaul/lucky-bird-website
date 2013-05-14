@@ -9,7 +9,7 @@
 		[:div#mozilla
 		(container-and-row
 			[:body
-				[:h1 "Mozilla Ignite"]
+				[:h1 "Mozilla Ignite Challenge"]
 				
 				[:p "In early 2013 LuckyBird competed in the Mozilla Ignite challenge to, 'design and build apps for the faster, smarter Internet of the future.'  Specifically a future where:"]
 				
