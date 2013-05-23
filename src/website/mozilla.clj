@@ -11,7 +11,7 @@
                [:body
                 [:h1 "Mozilla Ignite Challenge"]
 				
-                [:p#itext [:i "Starting in early 2013 Luckybird took part and became finalists in the Mozilla Ignite Challenge.  It was an awesome experience, but whats really amazing is that we're still at the tip of the iceberg for whats possible when gigabit networks are the norm."] ]
+                [:p#itext [:i "Starting in early 2013 Luckybird took part and became finalists in the Mozilla Ignite Challenge.  The future is bright for gigabit technology and the community behind it - we're only at the tip of the iceberg."] ]
                  
                 
                 [:p "The challenge proposed by" [:a {:href "https://mozillaignite.org/"} " Mozilla Ignite "] "was to design and build apps for the faster, smarter Internet of the future.  Specifically a future where:"]
@@ -48,7 +48,7 @@
 				
                 
 				
-                [:p "LuckyBird would like to give special thanks to Mozilla Ignite’s Will Barkis - without his help from the very beggenging  come to life.  We would also like to thank Chris Pangilinan of the SFMTA for giving us a big picture view of the problems that transit planners face.   Lastly, we would like to thank Rich Hickey, the creator of Clojure, for inventing such an incredibly dynamic language to write our project in."]
+                [:p "LuckyBird would like to give special thanks to Mozilla Ignite’s Will Barkis - without his help and support from the very beginning our project would have never come to life.  We would also like to thank Chris Pangilinan of the SFMTA for giving us a big picture view of the problems that transit planners face.   Lastly, we would like to thank Rich Hickey, the creator of Clojure, for inventing such an incredibly dynamic language to write our project in."]
 				
                 [:p [:h4 "If you would like to use the framework we built for this challenge it has all been open sourced"
                  [:a {:href "https://github.com/CAMMSAUL/MOZILLA-IGNITE-DEMO"} " here on Github."]]]
