@@ -15,6 +15,8 @@
   [:ul
    (map #(vector :li %) items)])
 
+
+
 (defn header [title]
   [:header
    (container-and-row
@@ -22,13 +24,15 @@
      [:span.cvhelper]
      [:img#logo {:src "images/LB_logo.png" :alt "Luckybird"}]]
     [:div.span4
-     (when title
-       [:div#app_page
-        [:br]
-        title])]
+     [:span.cvhelper]
+     
+     ]
     [:div.span4
      [:span.cvhelper]
-     [:iframe#facebook {:src "http://www.facebook.com/plugins/like.php?href=http%3A%2F%2Fwww.facebook.com%2Fluckybirdinc%3Ffref%3Dts&send=false&layout=standard&width=300&show_faces=false&font&colorscheme=light&action=like&height=35" :scrolling "no" :frameborder 0 :allowTransparency "true"}]])])
+     [:iframe#facebook {:src "http://www.facebook.com/plugins/like.php?href=http%3A%2F%2Fwww.facebook.com%2Fluckybirdinc%3Ffref%3Dts&send=false&layout=standard&width=300&show_faces=false&font&colorscheme=light&action=like&height=35" :scrolling "no" :frameborder 0 :allowTransparency "true"}
+     ]])])
+
+
 
 (defn footer-nav
   "links is a collection of [text link] pairs"

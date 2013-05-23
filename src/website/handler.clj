@@ -6,12 +6,14 @@
             [compojure.route :as route]
             [website.apps :as apps]
             [website.index :as index]
-            [website.other :as other]))
+            [website.about :as about]
+            [website.mozilla :as mozilla]))
 
 (defroutes app-routes
   (GET "/" [] (index/page))
   (context nil [] apps/app-page-routes)
-  (context nil [] other/other-page-routes)
+  (context nil [] mozilla/mozilla-routes)
+  (GET "/about.html" [] (about/about))
   (route/resources "/")
   (route/not-found "Not Found"))
 

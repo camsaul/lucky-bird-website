@@ -42,7 +42,7 @@ a:active {
 }
 
 h1,h2,h3,h4,h5,h6 {
-    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    font-family: "Tahoma","Times New Roman", "Palatino Linotype", "Book Antiqua", Palatino, serif;
 }
 
 h1 {
@@ -81,6 +81,18 @@ header {
     .row div {
 	height: 120px;
     }
+    .nav {
+	text-align: left;
+	ul {
+	    color: @dark-green;
+	    li {
+		font-family:"Tahoma", "Times New Roman", Times, serif;
+		font-size: 18px;
+		line-height: 26px;
+		list-style-type: none;		
+	    }
+	}
+    }
     img {
 	width: 316px;
 	height: 79px;
@@ -93,7 +105,7 @@ header {
 	margin-left: 0px;
 	margin-top: 30px;
 	float: left;
-	font-family: Georgia, "Times New Roman", Times, serif;
+	font-family: "Tahoma", "Times New Roman", Times, serif;
 	font-size: 24px;
 	font-weight: bold;
 	color: @mobilemuni-red;
@@ -134,7 +146,7 @@ header {
 
 #home {
     
-        width: 100%;
+    width: 100%;
     margin-top: 0px;
     -moz-box-shadow: 1px 3px 3px #333;
     -webkit-box-shadow: 1px 3px 3px #333;
@@ -148,7 +160,7 @@ header {
     h1 {
 	text-align: center;
 	color: @dark-green;
-	font-size: 52px;
+	font-size: 39px;
 	line-height: 140%;
     }
     #subtitle {
@@ -156,7 +168,7 @@ header {
 	width: 254px;
 	margin-right: auto;
 	margin-left: auto;
-	font-family: Georgia, "Times New Roman", Times, serif;
+	font-family:"Tahoma", "Times New Roman", Times, serif;
 	color: @dark-green;
 	img {
 	    display: block;
@@ -164,7 +176,7 @@ header {
 	    margin-right: auto;
 	}
 	p {
-	    font-family: Georgia, "Times New Roman", Times, serif;
+	    font-family: "Tahoma", "Times New Roman", Times, serif;
 	    font-size: 22px;
 	    color: #FFF;
 	    line-height: 26px;
@@ -178,6 +190,7 @@ header {
 	h2 {
 	    color: @mobilemuni-red;
 	    height: 80px;
+	    font-size: 25px;
 	    
 	}
 	img {
@@ -192,7 +205,7 @@ header {
 
 #mozilla {
     
-        width: 100%;
+    width: 100%;
     margin-top: 0px;
     -moz-box-shadow: 1px 3px 3px #333;
     -webkit-box-shadow: 1px 3px 3px #333;
@@ -203,47 +216,141 @@ header {
 	padding-top: 25px;
 	padding-bottom: 110px;
     }
-    h4 {
+    h1 {
 	text-align: center;
-	color: @dark-gray;
-	font-size: 26px;
-	line-height: 140%;
-    }
-    #subtitle {
-	height: 185px;
-	width: 254px;
-	margin-right: auto;
-	margin-left: auto;
-	font-family: Georgia, "Times New Roman", Times, serif;
 	color: @dark-green;
-	img {
-	    display: block;
-	    margin-left: auto;
-	    margin-right: auto;
-	}
-	p {
-	    font-family: Georgia, "Times New Roman", Times, serif;
-	    font-size: 22px;
-	    color: #FFF;
-	    line-height: 26px;
-	    text-align: center;
-	    padding-top: 50px;
-	    padding-bottom: 50px;
-	}
+	font-size: 46px;
+	line-height: 140%;
+	font-family:"Verdana", "Times New Roman";
+	padding-bottom: 15px;
+	font-weight: 400
     }
-    .app-bullet-point {
-	height: 250px;
-	h2 {
-	    color: @mobilemuni-red;
-	    height: 80px;
-	    
-	}
-	img {
-	    display: block;
-	    margin-left: auto;
-	    margin-right: auto;
-	}
+
+    li {
+	font-family:"Verdana", "Times New Roman", Times, serif;
+	font-size: 17px;
+	color: black;
+	line-height: 145%;
+
+}
+
+    p {
+	font-family:"Verdana", "Times New Roman", Times, serif;
+	font-size: 17px;
+	line-height: 150%;
+	padding-top: 10px;
+	color: black;
+
     }
+
+    A:link {color: @dark-green;}
+    A:visited {text-decoration: none}
+    A:active {text-decoration: @dark-green}
+    A:hover {font-size:24; font-weight:bold; color: @dark-green;}
+    
+    img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	float: right; 
+	border-style: solid;
+	border-width: 1px;
+	margin: 20px 0px 20px 30px;
+    }   
+}
+
+div#about {
+	margin-left:auto;
+    margin-right:auto;
+    width:960px;
+}
+
+#about {
+    
+       
+    position: relative;
+    width: auto;
+    	
+    .container {
+    
+	width: auto;
+	position: relative;
+	padding-top: 25px;
+	padding-bottom: 110px;
+	
+    }
+    
+    h1 {
+	text-align: center;
+	color: @dark-green;
+	font-size: 46px;
+	line-height: 140%;
+	font-family:"Tahoma", "Times New Roman";
+	padding-bottom: 15px;
+    }
+    
+div#indi {
+	padding-bottom: 50px;
+	}
+    
+div {
+	padding-top: 5px;
+	padding-bottom: 30px;
+	
+	
+
+    
+    p#team {
+	    float: right;
+    }
+    
+}    
+
+p#intro {
+	text-align: center;
+	font-size: 30px;
+	padding-bottom: 20px;
+	padding-top: 25px;
+	color: @dark-green;
+	font-weight:  500
+	
+}
+    
+h2 {
+	text-align: left;
+	color: @dark-green;
+	font-size: 30px;
+	line-height: 80%;
+	font-family:"Tahoma", "Times New Roman";
+	margin: 0px 0px 11px 0px;
+	font-weight: 400
+    }
+
+    
+    p {
+	font-family:"Tahoma", "Times New Roman", Times, serif;
+	font-size: 20px;
+	line-height: 145%;
+	padding-top: 10px;
+	color: black;
+
+    }
+
+    A:link {color: @dark-green;}
+    A:visited {text-decoration: none}
+    A:active {text-decoration: none}
+    A:hover {font-size:24; font-weight:bold; color: @dark-green;}
+    
+    img {
+	display: block;
+	float: left;
+	
+	border-style: solid;
+	border-width: 1px;
+	height: 200px;
+	width: 200px;
+	margin: 0px 20px 0px 0px;
+    }   
 }
 
 
@@ -274,7 +381,7 @@ header {
 	height: 220px;
 	display: inline-block;
 	text-align: center;
-	font-family: Georgia, "Times New Roman", Times, serif;
+	font-family:"Tahoma", "Times New Roman", Times, serif;
 	font-size: 18px;
 	font-weight: bold;
 	color: @light-gray;
@@ -334,6 +441,11 @@ header {
     box-shadow: 1px 3px 3px #333;
     position: relative;
     z-index: 8;
+    
+    h2 {
+	    font-size: 25px;
+    } 
+    
     #apps {
 	height: 320px;
 	margin-top: 40px;
@@ -347,7 +459,7 @@ header {
 	    padding-left: 40px;
 	    padding-right: 40px;
 	    width: 205px;
-	    font-family: Georgia, "Times New Roman", Times, serif;
+	    font-family:"Tahoma", "Times New Roman", Times, serif;
 	    font-size: 22px;
 	    font-weight: bold;
 	    text-align: center;
@@ -394,7 +506,7 @@ header {
 	    margin: 0px auto;
 	}
 	.bio_text {
-	    font-family: Georgia, "Times New Roman", Times, serif;
+	    font-family:"Tahoma", "Times New Roman", Times, serif;
 	    font-size: 17px;
 	    color: #333;
 	    padding-top: 20px;
@@ -428,7 +540,7 @@ header {
 	ul {
 	    color: @dark-green;
 	    li {
-		font-family: Georgia, "Times New Roman", Times, serif;
+		font-family:"Tahoma", "Times New Roman", Times, serif;
 		font-size: 18px;
 		line-height: 26px;
 		list-style-type: none;		
@@ -438,7 +550,7 @@ header {
     #copyright {
 	height: 80px;
 	color: #333;
-	font-family: Georgia, "Times New Roman", Times, serif;
+	font-family:"Tahoma", "Times New Roman", Times, serif;
 	font-size: 18px;
 	text-align: right;
     }
