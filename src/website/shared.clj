@@ -22,7 +22,7 @@
    (container-and-row
     [:div.span4
      [:span.cvhelper]
-     [:a {:href "http://getluckybird.com/"}
+     [:a {:href "/"}
      [:img#logo {:src "images/LB_logo.png" :alt "Luckybird"}]]]
     
     [:div.span8
@@ -30,9 +30,9 @@
      [:ul#topnav
      [:li [:a {:href "bandfunk.html" } [:b "Ryde"]]]
      [:li [:a {:href "bandfunk.html" } [:b "Apps"]]]
-     [:li [:a {:href "bandfunk.html" } [:b "Blog"]]]
-     [:li [:a {:href "bandfunk.html" } [:b "About"]]]
-     [:li [:a {:href "bandfunk.html" } [:b "Contact"]]]
+     [:li [:a {:href "http://www.getluckybird.com/blog/" } [:b "Blog"]]]
+     [:li [:a {:href "about.html" } [:b "About"]]]
+     [:li [:a {:href "mailto:founders@getluckybird.com" } [:b "Contact"]]]
      ]]
      
      
@@ -72,7 +72,7 @@
     [:title (if title
               (str title " | LuckyBird, Inc.")
               "LuckyBird, Inc.")]
-    (map include-css ["http://fonts.googleapis.com/css?family=PT+Serif:700italic"
+    (map include-css ["http://fonts.googleapis.com/css?family=Source+Sans+Pro%7CArvo%7CDroid+Serif%7CDroid+Sans%7CUbuntu%7COpen+Sans%7CPT+Serif:700italic"
                       "css/bootstrap.min.css"])
     (include-less "css/luckybird.less")
     (map include-js ["http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"

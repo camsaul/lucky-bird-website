@@ -14,7 +14,7 @@
                 
                 
                 
-                [:p#intro "Luckybird was founded in the fall of 2012 to create useful apps that make life more awesome.  Come fly with us."]]
+                [:p#intro "Useful apps that make life more awesome.  Come fly with us."]]
                 
                 [:div#indi
                 	[:h2 "Cameron Saul"]
