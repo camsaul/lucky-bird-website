@@ -22,15 +22,21 @@
    (container-and-row
     [:div.span4
      [:span.cvhelper]
-     [:img#logo {:src "images/LB_logo.png" :alt "Luckybird"}]]
-    [:div.span4
+     [:a {:href "http://getluckybird.com/"}
+     [:img#logo {:src "images/LB_logo.png" :alt "Luckybird"}]]]
+    
+    [:div.span8
      [:span.cvhelper]
+     [:ul#topnav
+     [:li [:a {:href "bandfunk.html" } [:b "Ryde"]]]
+     [:li [:a {:href "bandfunk.html" } [:b "Apps"]]]
+     [:li [:a {:href "bandfunk.html" } [:b "Blog"]]]
+     [:li [:a {:href "bandfunk.html" } [:b "About"]]]
+     [:li [:a {:href "bandfunk.html" } [:b "Contact"]]]
+     ]]
      
-     ]
-    [:div.span4
-     [:span.cvhelper]
-     [:iframe#facebook {:src "http://www.facebook.com/plugins/like.php?href=http%3A%2F%2Fwww.facebook.com%2Fluckybirdinc%3Ffref%3Dts&send=false&layout=standard&width=300&show_faces=false&font&colorscheme=light&action=like&height=35" :scrolling "no" :frameborder 0 :allowTransparency "true"}
-     ]])])
+     
+    )])
 
 
 

@@ -81,23 +81,41 @@ header {
     .row div {
 	height: 120px;
     }
-    .nav {
-	text-align: left;
-	ul {
-	    color: @dark-green;
-	    li {
-		font-family:"Tahoma", "Times New Roman", Times, serif;
-		font-size: 18px;
-		line-height: 26px;
-		list-style-type: none;		
-	    }
-	}
+    
+	
+	ul#topnav {
+	    margin:40px 0px 0px 0px;
+		padding:0;
+		list-style:none;
+		float: right
     }
+    
+    ul#topnav li {
+	    display: inline;
+	    font-size: 20px
+    }
+    
+    ul#topnav li a{
+ text-decoration:none;
+ padding:10px 0;
+ width:100px;
+ background: white;
+ color: @dark-green;
+ float:left;
+ text-align:center;
+ border-left: 1px solid @dark-green;
+}	    
+ ul#topnav li a:hover {
+ background:@dark-green;
+  color: @white;
+ }
     img {
 	width: 316px;
 	height: 79px;
 	vertical-align: middle;
-    }
+ }
+    
+    
     /* The optional page title, e.g. "BandFunk" */
     #app_page {
 	height: 90px;
