@@ -21,7 +21,7 @@
   [:div.row
    (map (fn [[name bio image]]
           [:div.bio.span3
-           [:b name]
+           
             [:br]
            [:img {:src image}]
            [:div.bio_text      

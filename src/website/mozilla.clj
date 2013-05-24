@@ -35,14 +35,15 @@
 				
                 [:p "We knew that we had to develop tools that could assist the SFMTA in analyzing the massive amounts of data that they collected everyday to get closer to answering the questions of where and why vehicles are slowed down on their route, and how do they ensure that their system is providing service to the places people need to go.  While we were able to get vehicle location data from NextBus, we had no idea how to get the passenger data about when and where people got on and off of stops.  Luckily, Chris let us know about an international urban data challenge that the SFMTA supplied a weeks worth or passenger data for.  We immediately downloaded the file (it had over 6,000,000 data points, which is pretty insane for only a week of data)."]
 				
-                [:p "While I was talking to users, Cam was learning"
- [:a {:href "http://en.wikipedia.org/wiki/Clojure"} " Clojure"]
- " ; a modern dialect of Lisp built for functional programming.  Cam wanted to build our project in Clojure because it is designed to be highly parallel.  This meant our framework scaled for a gigabit future where there is no limit to how fast information can travel and processing speed is never a bottle neck."]
+				[:a {:href "http://luckybird-ignite-demo.herokuapp.com/"}[:img {:src "images/ignitedata.png" :name "wobble" :border 0}]]
 				
-                [:p "After weeks of development, " [:a {:href "http://luckybird-ignite-demo.herokuapp.com/"} "our end project was a platform that analyzes transit and urban data to uncover usage and traffic trends that can help transit authorities make smarter decisions around scheduling and route planning."]  "  We are not data scientists, but we modeled the data to reflect route usage and efficiency, specifically showing the on and off boarding at different stops along a route and also where on the route buses were getting ahead of or behind schedule."]
+                [:p "While I was talking to users, Cam was learning"
+				[:a {:href "http://en.wikipedia.org/wiki/Clojure"} " Clojure"]
+				" ; a modern dialect of Lisp built for functional programming.  Cam wanted to build our project in Clojure because it is designed to be highly parallel.  This meant our framework scaled for a gigabit future where there is no limit to how fast information can travel and processing speed is never a bottle neck."]
 				
                 
-                 [:a {:href "http://luckybird-ignite-demo.herokuapp.com/"}[:img {:src "images/ignitedata.png" :name "wobble" :border 0}]]
+                
+                [:p "After weeks of development, " [:a {:href "http://luckybird-ignite-demo.herokuapp.com/"} "our end project was a platform that analyzes transit and urban data to uncover usage and traffic trends that can help transit authorities make smarter decisions around scheduling and route planning."]  "  We are not data scientists, but we modeled the data to reflect route usage and efficiency, specifically showing the on and off boarding at different stops along a route and also where on the route buses were getting ahead of or behind schedule."]
 				
                 
                 [:p "With only a week of user data (and only for certain routes) this analysis platform is far from complete.  While we are continuing to add to the project, " [:a {:href "https://github.com/CAMMSAUL/MOZILLA-IGNITE-DEMO"} "we decided to open source all of our code on Github"] " so that other developers and transit professionals can create their own analysis tools and models on top of our platform."]
