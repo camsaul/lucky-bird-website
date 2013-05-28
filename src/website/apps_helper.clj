@@ -29,7 +29,7 @@
 
 (defn app-boxes
   "Takes [name image link] vectors of app box info" [& boxes]
-  [:div#ourapps.row [:h2.gray "See what else LuckyBird is up to!"]
+  [:div#ourapps.row [:h2.gray "See what else Luckybird is up to!"]
    (map (fn [[name image link]]         
           [:div.appbox
            [:a {:href link}
