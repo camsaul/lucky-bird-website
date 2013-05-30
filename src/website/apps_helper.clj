@@ -12,6 +12,7 @@
                                                        (when img
                                                          (image (first img) :width 100 :height 100))
                                                        [:h2 title]
+                                                       
                                                        [:p subtitle]]))
                                                (partition 2)
                                                (map #(apply vector :div.row %)))])
@@ -20,7 +21,7 @@
   "takes [:ios/:wp/:android link alt-text] info vectors" [& links]
   [:div#appstore-links
    (map (fn [[app-type link alt-text]]
-          [:a {:href link :title "shitty link"}           
+          [:a {:href link :title ""}           
            [:img (case app-type
                    :ios {:src "images/appstore_mm.gif" :alt alt-text :width 200 :height 71}
                    :wp {:src "images/WindowsPhone_208x67_blk.png" :alt alt-text :width 208 :height 69}

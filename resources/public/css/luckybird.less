@@ -117,27 +117,29 @@ header {
 	height: 79px;
 	vertical-align: middle;
  }
+}    
     
-    
-    /* The optional page title, e.g. "BandFunk" */
-    #app_page {
+/* The optional page title, e.g. "BandFunk" */
+    #BandFunk {
 	height: 90px;
 	width: 380px;
 	margin-left: 0px;
 	margin-top: 30px;
 	float: left;
 	font-family: "Droid Serif","Ubuntu", "Times New Roman", Times, serif;
-	font-size: 24px;
+	font-size: 240px;
 	font-weight: bold;
-	color: @mobilemuni-red;
+	color: @dark-green;
     }
+    
+    
     iframe#facebook {
 	border:none;
 	overflow:hidden;
 	height:35px;
 	vertical-align: middle;
     }
-}
+
 
 /* HOME */
 @gradient-inner-color: @white;
@@ -165,6 +167,8 @@ header {
 				      @gradient-inner-color 0%, @gradient-outer-color 100%);
 }
 
+/* Home Page AKA Index */
+
 #home {
     
     width: 100%;
@@ -175,14 +179,15 @@ header {
     z-index: 9;
     position: relative;
     .container {
-	padding-top: 110px;
-	padding-bottom: 110px;
+	padding-top: 60px;
+	
     }
     h1 {
 	text-align: center;
 	color: @dark-green;
 	font-size: 39px;
 	line-height: 140%;
+	padding-bottom: 50px;
     }
     #subtitle {
 	height: 185px;
@@ -191,11 +196,28 @@ header {
 	margin-left: auto;
 	font-family:"Arvo","Open Sans","Source Sans Pro","Verdana","Times New Roman", Times, serif;
 	color: @dark-green;
+	}
 	img {
 	    display: block;
 	    margin-left: auto;
 	    margin-right: auto;
+	    
 	}
+	
+	img#store {
+		margin: 50px;
+    padding: 20px;
+    margin-right: 0px;
+    border-top-width: 2px;
+    border-bottom-width: 2px;
+    border-top-style: solid;
+    border-bottom-style: solid;
+    border-top-color: @dark-green;
+    border-bottom-color: @dark-green;
+    
+    float: left
+	}
+	
 	p {
 	    font-family: "Arvo","Open Sans","Source Sans Pro","Verdana", "Times New Roman", Times, serif;
 	    font-size: 22px;
@@ -206,21 +228,21 @@ header {
 	    padding-bottom: 50px;
 	}
     }
-    .app-bullet-point {
+    
+    
+/* App Page */
+    
+.app-bullet-point {
 	height: 250px;
+	color: black;
 	h2 {
 	    color: @mobilemuni-red;
 	    height: 80px;
 	    font-size: 25px;
 	    
 	}
-	img {
-	    display: block;
-	    margin-left: auto;
-	    margin-right: auto;
-	}
-    }
-}
+	    }
+
 
 /* Mozilla Ignite Page */
 
@@ -301,7 +323,7 @@ div#about {
     width:960px;
 }
 
-
+/* About Page */
 
 
 #about {
@@ -412,7 +434,7 @@ h2 {
 }
 
 
-/* OUR APPS (APP PAGE) */
+/* (APP PAGE) */
 
 #appstore-links {
     margin: 50px;
@@ -439,7 +461,7 @@ h2 {
 	height: 220px;
 	display: inline-block;
 	text-align: center;
-	font-family:"Droid Serif","Ubuntu","Times New Roman", Times, serif;
+	font-family: "Droid Serif","Ubuntu","Times New Roman", Times, serif;
 	font-size: 18px;
 	font-weight: bold;
 	color: @light-gray;
@@ -460,11 +482,11 @@ h2 {
 	}
 	p {
 	    height: 0px;
-	}
+	    font-family: "Arvo","Open Sans","Source Sans Pro","Verdana","Times New Roman", Times, serif;	}
     }
 }
 
-/* OUR APPS (MAIN PAGE)*/
+/* OUR APPS (Home PAGE)*/
 
 @our-apps-gradient-inner: @light-green;
 @our-apps-gradient-outer: @dark-green;
@@ -492,8 +514,8 @@ h2 {
 				      @our-apps-gradient-outer 100%);
     width: 100%;
     margin-top: 0px;
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding-top: 20px;
+    padding-bottom: 46px;
     -moz-box-shadow: 1px 3px 3px #333;
     -webkit-box-shadow: 1px 3px 3px #333;
     box-shadow: 1px 3px 3px #333;
@@ -501,43 +523,107 @@ h2 {
     z-index: 8;
     
     h2 {
-	    font-size: 25px;
-    } 
+	    font-size: 33px;
+	    padding-bottom: 25px;
+	     } 
     
-    #apps {
-	height: 320px;
-	margin-top: 40px;
+#apps {
+	height: 160px;
+	margin-top: 10px;
 	margin-left: auto;
 	margin-right: auto;
-	width: 900px;
+	
 	.app {
-	    height: 80px;
+	    height: 100px;
 	    display: inline-block;
 	    vertical-align: middle;
-	    padding-left: 40px;
-	    padding-right: 40px;
-	    width: 205px;
-	    font-family:"Arvo","Open Sans","Source Sans Pro","Verdana","Times New Roman", Times, serif;
-	    font-size: 22px;
+	    padding-left: 0px;
+	    padding-right: 0px;
+	    width: 180px;
+	    font-family: "Arvo","Open Sans","Source Sans Pro","Verdana","Times New Roman", Times, serif;
+	    font-size: 17px;
 	    font-weight: bold;
 	    text-align: center;
 	    color: #FFF;
+	    
+	    
 	    .icon {
-		height: 450px;
-		width: 450px;
+		height: 125px;
+		width: 125px;
+		margin-left: auto;
+	    margin-right: auto;
+	    padding-bottom: 10px;
 	    }
 	}
     }
 }
 
-/* TEAM */
+/* Other Apps Home Div */
 
-#team {
-    background-color: #E5E7C1;
+/*
+#otherapps {
+
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #E5E7C1;
+    background-position: fixed;
+    width: 100%;
+    margin-top: 0px;
+    padding-top: 20px;
+    -moz-box-shadow: 1px 3px 3px #333;
+    -webkit-box-shadow: 1px 3px 3px #333;
+    box-shadow: 1px 3px 3px #333;
+    position: relative;
+  
+    
+h2 {
+	text-align: center;
+	padding-bottom: 25px;
+	color: black;
+	font-size: 33px;
+    }
+    
+#apps {
+	height: 205px;
+	margin-top: 10px;
+	
+	
+.app {
+	    height: 95px;
+	    display: inline-block;
+	    vertical-align: middle;
+	    padding-left: 20px;
+	    padding-right: 20px;
+	    width: 180px;
+	    font-family: "Arvo","Open Sans","Source Sans Pro","Verdana","Times New Roman", Times, serif;
+	    font-size: 17px;
+	    font-weight: bold;
+	    text-align: center;
+	    color: black;
+	    
+	    
+	    .icon {
+		height: 125px;
+		width: 125px;
+		margin-left: auto;
+	    margin-right: auto;
+	    padding-bottom: 10px;
+	    }
+	}
+    }
+    
+    
+}
+*/
+
+/* Awards Home Div */
+
+#awards {
+    background-color: white;
     background-position: fixed;
     /* width: 100%; */
     margin-top: 0px;
-    padding-top: 45px;
+    padding-top: 20px;
     margin-right: auto;
     margin-left: auto;
     -moz-box-shadow: 1px 3px 3px #333;
@@ -545,38 +631,38 @@ h2 {
     box-shadow: 1px 3px 3px #333;
     position: relative;
     z-index: 7;
-    h1 {
+    h2 {
 	text-align: center;
-	padding-bottom: 45px;
-	color: #333;
+	padding-bottom: 20px;
+	color: @dark-green;
+	font-size: 33px;
     }
-    .bio {
-	display: inline-block;
-    	padding-bottom: 10px;
-	/* margin: 0px 25px; */
-	vertical-align: middle;
-	text-align: center;
-    		
-    		img {
-	    display: block;
-	    height: 200px;
-	    width: 200px;
-	    margin: 0px auto;
-	}
-	.bio_text {
-	    font-family:"Arvo","Open Sans","Source Sans Pro","Verdana","Times New Roman", Times, serif;
+    
+#apps {
+	height: 155px;
+	margin-top: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	
+.app {
+	    display: inline-block;
+	    vertical-align: middle;
+	    padding-left: 110px;
+	    padding-right: 0px;
+	   
+	    font-family: "Arvo","Open Sans","Source Sans Pro","Verdana","Times New Roman", Times, serif;
 	    font-size: 17px;
-	    color: #333;
-	    padding-top: 20px;
-	    height: 120px;
-	}
+	    font-weight: bold;
+	    text-align: center;
+	    color: @dark-green;
+	    
+	    
+	    	}
     }
-    .twitter-timeline {
-	float: right;
-    }
+    
+    
 }
 
-/* Bio Stuff */
 
 /* FOOTER */
 
@@ -597,11 +683,15 @@ h2 {
 	text-align: left;
 	ul {
 	    color: @dark-green;
+	    b {
+		    color: @dark-green;
+	    }
 	    li {
 		font-family:"Droid Serif","Ubuntu","Times New Roman", Times, serif;
 		font-size: 18px;
 		line-height: 26px;
-		list-style-type: none;		
+		list-style-type: none;	
+			
 	    }
 	}
     }

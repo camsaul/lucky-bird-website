@@ -53,12 +53,19 @@
 (defn footer []
   [:div#footer
    (container-and-row
-    (footer-nav "LuckyBird Apps" [["BandFunk" "bandfunk.html"]
-                                  ["MobileMuni" "mobile_muni_sf.html"]
-                                  ["Gymspired" "gymspired.html"]])
-    (footer-nav "More Info" [["Press" "http://www.getluckybird.com/blog/category/press/"]
+    (footer-nav "All Apps" [		["MobileMuni" "mobile_muni_sf.html"]
+    								["MobileMBTA" "mobile_mbta.html"]
+									["MobileCTA" "mobile_cta.html"]
+									["MobileMetro DC" "mobile_metro_dc.html"]
+									["Mobile AC Transit" "mobile_ac_transit.html"]
+									["MobileTTC" "mobile_ttc.html"]
+    								["BandFunk" "bandfunk.html"]
+                                    ["Gymspired" "gymspired.html"]])
+    (footer-nav "More Info" [["About" "about.html"]
+                             ["Mozilla Ignite" "mozilla.html"]
+                             ["Blog" "http://www.getluckybird.com/blog/"]
                              ["Contact Us" "mailto:founders@getluckybird.com"]
-                             ["Blog" "http://www.getluckybird.com/blog/"]])
+                             ])
     [:div#copyright.span6
      [:br]
      "Copyright 2013 LuckyBird Inc."])])
