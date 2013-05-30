@@ -30,7 +30,7 @@
 
 (defn app-boxes
   "Takes [name image link] vectors of app box info" [& boxes]
-  [:div#ourapps.row [:h2.gray "See what else Luckybird is up to!"]
+  [:div#ourapps.row [:h2.gray "Other cool creations from Luckybird!"]
    (map (fn [[name image link]]         
           [:div.appbox
            [:a {:href link}
@@ -61,5 +61,5 @@
            ["BandFunk" "images/bandfunk_icon_small.png" "bandfunk.html"]
            ["MobileMuni" "images/mobilemuni_icon.png" "mobile_muni_sf.html"]
            ["Gymspired" "images/gymspired_icon.png" "gymspired.html"]
-           ["Mozilla Challenge" "images/mozilla.png" "mozilla.html"]
+           ["Mozilla Challenge" "images/mozilla_roll.png" "mozilla.html"]
            ["Transportation Apps +" "images/trans_icon1.png" "#"])]]))))

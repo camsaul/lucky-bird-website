@@ -120,18 +120,18 @@ header {
 }    
     
 /* The optional page title, e.g. "BandFunk" */
-    #BandFunk {
+    #app_page {
 	height: 90px;
 	width: 380px;
 	margin-left: 0px;
 	margin-top: 30px;
 	float: left;
 	font-family: "Droid Serif","Ubuntu", "Times New Roman", Times, serif;
-	font-size: 240px;
+	font-size: 24px;
 	font-weight: bold;
 	color: @dark-green;
-    }
     
+    }
     
     iframe#facebook {
 	border:none;
@@ -235,13 +235,20 @@ header {
 .app-bullet-point {
 	height: 250px;
 	color: black;
+	
 	h2 {
 	    color: @mobilemuni-red;
 	    height: 80px;
 	    font-size: 25px;
 	    
 	}
-	    }
+	    img {
+	    display: block;
+	    margin-left: auto;
+	    margin-right: auto;
+	}
+    }
+
 
 
 /* Mozilla Ignite Page */
@@ -437,23 +444,35 @@ h2 {
 /* (APP PAGE) */
 
 #appstore-links {
-    margin: 50px;
-    padding: 20px;
-    border-top-width: thin;
+    
+  	margin-top: 0px;
     border-bottom-width: thin;
-    border-top-style: solid;
     border-bottom-style: solid;
-    border-top-color: #666;
     border-bottom-color: #666;
     text-align: center;
-    a {
+    
+    
+    
+a {
+	margin-top: 0px;
 	padding: 20px;
+	height: 100px;
+	display: inline-block;
+	text-align: center;
+	font-family:"Droid Serif","Ubuntu","Times New Roman", Times, serif;
+	font-family: "Droid Serif","Ubuntu","Times New Roman", Times, serif;
+	font-size: 18px;
+	font-weight: bold;
+	color: @light-gray;
+	
+
     }
 }
 
 /* This is the app list for the app pages */
 #ourapps {
-    h3 {
+    h2 {
+	padding-top: 25px;
 	text-align: center;
     }
     .appbox {
