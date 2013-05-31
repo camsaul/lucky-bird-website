@@ -28,6 +28,7 @@
     [:div.span8
      [:span.cvhelper]
      [:ul#topnav
+     
      [:li [:a {:href "http://www.getluckybird.com/blog/" } [:b "Blog"]]]
      [:li [:a {:href "about.html" } [:b "About"]]]
      [:li [:a {:href "mailto:founders@getluckybird.com" } [:b "Contact"]]]

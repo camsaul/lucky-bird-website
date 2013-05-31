@@ -15,6 +15,8 @@
                  
                  [:hr]
                 
+                [:img#logo {:src "images/mozilla.png" :name "Mozilla Ignite" :border 0}]
+                
                 [:p "The challenge proposed by" [:a {:href "https://mozillaignite.org/"} " Mozilla Ignite "] "was to design and build apps for the faster, smarter Internet of the future.  Specifically a future where:"]
 				
                 [:ul 
@@ -25,7 +27,7 @@
                  [:li "You can dynamically provision and program routers along the way, as if the network itself were one giant LAN."]]
 				
 				
-                [:img {:src "images/transittraffic.jpg" :name "traffic" :border 0}]
+                
 				
                 [:p "Our first proposal for the challenge was a huge vision of an overarching network that connected transit users, planners, and operators.  We saw how users interacted with" [:a {:href"http://getluckybird.com/mobile_muni_sf.html"} " MobileMuni" ] " and imagined a world where location data would be streamed between the user and the transit operator in order to create optimal bus routes in real-time."]
 				

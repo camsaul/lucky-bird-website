@@ -33,7 +33,7 @@
   
    [:div#awards
     [:div.container
-     [:h2 "Award Winners"]
+     [:h2  "Award Winners"]
      (app-links
       
       ["" "images/mozilla.png" "mozilla.html"]
