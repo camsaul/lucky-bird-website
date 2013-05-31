@@ -218,15 +218,6 @@ header {
     float: left
 	}
 	
-	p {
-	    font-family: "Arvo","Open Sans","Source Sans Pro","Verdana", "Times New Roman", Times, serif;
-	    font-size: 22px;
-	    color: #FFF;
-	    line-height: 26px;
-	    text-align: center;
-	    padding-top: 50px;
-	    padding-bottom: 50px;
-	}
     }
     
     
@@ -235,18 +226,38 @@ header {
 .app-bullet-point {
 	height: 250px;
 	color: black;
+	padding-top: 11px;
+	
+	/* p text for app pages */	
+	
+	p {
+	    font-family: "Arvo","Open Sans","Source Sans Pro","Verdana", "Times New Roman", Times, serif;
+	    font-size: 15px;
+	    color: black;
+	    line-height: 24px;
+	    text-align: center;
+	    padding-top: 0px;
+	    padding-bottom: 10px;
+	}
+
 	
 	h2 {
 	    color: @mobilemuni-red;
-	    height: 80px;
+	    height: 55px;
 	    font-size: 25px;
+	    line-height: 30px;
+	    padding-bottom: 3px;
 	    
 	}
 	    img {
 	    display: block;
 	    margin-left: auto;
 	    margin-right: auto;
+	    padding-top: 0px;
 	}
+	
+	
+	
     }
 
 
@@ -472,12 +483,12 @@ a {
 /* This is the app list for the app pages */
 #ourapps {
     h2 {
-	padding-top: 25px;
+	padding-top: 19px;
 	text-align: center;
     }
     .appbox {
 	width: 170px;
-	height: 220px;
+	height: 160px;
 	display: inline-block;
 	text-align: center;
 	font-family: "Droid Serif","Ubuntu","Times New Roman", Times, serif;
@@ -490,7 +501,7 @@ a {
 	border-left-style: none;
 	border-right-color: @very-light-gray;
 	border-left-color: @very-light-gray;
-	margin: 40px 0px;
+	margin: 25px 0px 40px 0px;
 	padding: 0px 10px;
 	vertical-align: middle;
 	img {
@@ -500,6 +511,8 @@ a {
 	    padding: 0px 0px;
 	}
 	p {
+	    padding-top: 6px;
+
 	    height: 0px;
 	    font-family: "Arvo","Open Sans","Source Sans Pro","Verdana","Times New Roman", Times, serif;	}
     }

@@ -8,14 +8,14 @@
 (defpage BandFunk
   (app-image "images/bandfunk_main_page.png" "BandFunk App Image")
   (bullet-points
-   [["Your Favorite Artists"
-     "Keep tabs on all your favorite DJs, bands, and superstars -- all in the same app!"]
-    ["Breaking News"
-     "Always know when your favorites are playing a show near you."]
-    ["In-Depth Info"
-     "Learn more about your favorite musicians with in-depth biographies just a click away!"]
-    ["Browse Similar"
-     "Discover new music and related artists that are based on your musical preferences!"]])
+   [["All Your Favorite Artists, Bands, and DJs"
+     "Keep tabs on your favorite DJs, bands, and superstars all in one app!  From Skrillex, to Lady Gaga, to Bad Religion - you will always have the latest news on your favorite artists and will know when they are playing near you!"]
+    ["Be the First to Know About Shows"
+     "With the tap of a finger, BandFunk lets you follow as many artists, bands, and DJs as your hart desires. When musicians you follow schedule a show in your city it will automatically be added to the event calendar in BandFunk.  Never miss a show again!"]
+    ["The Most In-Depth Biographies"
+     "BandFunk offers the most in-depth biographies of your favorite artists.   Look at cool photos, learn where they came from, who their biggest influence was, and how they make such awesome music."]
+    ["Discover New Artists and Music"
+     "Whenever you follow a new artist in BandFunk, you can see a list of artists that are similar to them.  Be sure to check out the Related Artists page to discover awesome new music and musicians that you would have never known about!"]])
   (app-store-links
    [:ios "https://itunes.apple.com/us/app/bandfunk/id590465611?mt=8"
     "MobileMuni for iOS"]
@@ -25,7 +25,7 @@
 (defpage Gymspired
   (app-image "images/iphone_gym.png" "Gymspired App Image")
   (bullet-points
-   [["Mesaure and Track Progress"
+   [["Simply Awesome Fitness Calculators"
      (ul
       "One Rep Max"
       "Body Mass Index (BMI)"
@@ -35,13 +35,12 @@
       "Lean Body Weight"
       "Macronutrients")]
     ["Weight Loss and Workout Tips"
-     "Stay inspired by the best fitness blogs on the internet, learn ways to lose weight fast,
-      and maximize your workouts all in the tips section."]
-    ["Before/After Photos"
+     "Stay inspired with tips from the very best fitness bloggers on the Internet!  Learn tips to lose weight fast, gain muscle, and maximize your workouts.  If you love a tip or a blogger you can go right to their site from the app!"]
+    ["Easily snap Before & After Photos"
      "Before and after pictures let you can visually track your progress towards achieving your fitness goals.
       Getting in great shape isn't easy, but when you see how good you you're starting to look, you won't be
       able to help but stay motivated."]
-    ["Stay Gymspired"
+    ["Stay Gymspired on Twitter"
      "Connect with other people dedicated to healthy living through the live #Gymspired twitter stream."]])
   (app-store-links
    [:ios "https://itunes.apple.com/ke/app/gymspired/id497281207?mt=8" "Gymspired for iOS"]))
@@ -49,6 +48,7 @@
 (defpage MobileMuni
   (app-image "images/iphone_lb_muni.png" "MobileMuni Transit App San Francisco Map")
   (bullet-points
+   
    [["Beautiful Map of San Francisco"
      "All transit directions and times are displayed on a beautiful map- so you always know where you are, and where you're going."
      "images/feat_icon1.png"]
@@ -58,7 +58,7 @@
     ["Bus, Light Rail, and Subway"
      "Whether you're taking the bus, subway, or light rail, MobileMuni provides the best routes and fastest public transit times for the San Francisco MUNI.  No matter if you have an iPhone, Android, or Windows Phone; the app is on all three!"
      "images/feat_icon3.png"]
-    ["Local Schedule Alerts"
+    ["Localized Schedule Alerts"
      "Cancelled lines, backed-up busses, late trains?  We are the only transit app with real-time alerts so that you are always in the loop with whats going on in San Francisco."
      "images/feat_icon4.png"]])
   (app-store-links
@@ -81,7 +81,7 @@
     ["Bus, Light Rail, and Subway"
      "Whether you're taking the bus, subway, or light rail, MobileCTA provides the best routes and fastest public transit times for the Chicago CTA."
      "images/feat_icon3.png"]
-    ["Local Schedule Alerts"
+    ["Localized Schedule Alerts"
      "Cancelled lines, backed-up busses, late trains?  We are the only transit app with real-time alerts so that you are always in the loop with whats going on in Chicago."
      "images/feat_icon4.png"]])
   (app-store-links
@@ -100,7 +100,7 @@
     ["Bus, Light Rail, and Subway"
      "Whether you're taking the bus, subway, or light rail, MobileMBTA provides the best routes and fastest public transit times for the Boston MBTA."
      "images/feat_icon3.png"]
-    ["Local Schedule Alerts"
+    ["Localized Schedule Alerts"
      "Cancelled lines, backed-up busses, late trains?  We are the only transit app with real-time alerts so that you are always in the loop with whats going on in Boston."
      "images/feat_icon4.png"]])
   (app-store-links
@@ -121,7 +121,7 @@
     ["Bus, Light Rail, and Subway"
      "Whether you're taking the bus, subway, or light rail, MobileMetro DC provides the best routes and fastest public transit times for the Washington DC Metro."
      "images/feat_icon3.png"]
-    ["Local Schedule Alerts"
+    ["Localized Schedule Alerts"
      "Cancelled lines, backed-up busses, late trains?  We are the only transit app with real-time alerts so that you are always in the loop with whats going on in Washington DC."
      "images/feat_icon4.png"]])
   (app-store-links
@@ -140,7 +140,7 @@
     ["Bus, Light Rail, and Subway"
      "Whether you're taking the bus, subway, or light rail, MobileTTC provides the best routes and fastest public transit times for the Toronto TTC."
      "images/feat_icon3.png"]
-    ["Local Schedule Alerts"
+    ["Localized Schedule Alerts"
      "Cancelled lines, backed-up busses, late trains?  We are the only transit app with real-time alerts so that you are always in the loop with whats going on in Toronto."
      "images/feat_icon4.png"]])
   (app-store-links
@@ -161,7 +161,7 @@
     ["Bus, Light Rail, and Subway"
      "Whether you're taking the bus, subway, or light rail, MobileMetro provides the best routes and fastest public transit times for the Los Angeles Metro."
      "images/feat_icon3.png"]
-    ["Local Schedule Alerts"
+    ["Localized Schedule Alerts"
      "Cancelled lines, backed-up busses, late trains?  We are the only transit app with real-time alerts so that you are always in the loop with whats going on in LA."
      "images/feat_icon4.png"]])
   (app-store-links
@@ -182,7 +182,7 @@
     ["Bus, Light Rail, and Subway"
      "Whether you're taking the bus, subway, or light rail, Mobile AC Transit provides the best routes and fastest public transit times for the Bay Area's AC Transit."
      "images/feat_icon3.png"]
-    ["Local Schedule Alerts"
+    ["Localized Schedule Alerts"
      "Cancelled lines, backed-up busses, late trains?  We are the only transit app with real-time alerts so that you are always in the loop with whats going on in the Bay Area."
      "images/feat_icon4.png"]])
   (app-store-links
