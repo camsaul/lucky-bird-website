@@ -28,8 +28,6 @@
     [:div.span8
      [:span.cvhelper]
      [:ul#topnav
-     [:li [:a {:href "bandfunk.html" } [:b "Ryde"]]]
-     [:li [:a {:href "bandfunk.html" } [:b "Apps"]]]
      [:li [:a {:href "http://www.getluckybird.com/blog/" } [:b "Blog"]]]
      [:li [:a {:href "about.html" } [:b "About"]]]
      [:li [:a {:href "mailto:founders@getluckybird.com" } [:b "Contact"]]]
