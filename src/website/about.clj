@@ -7,7 +7,7 @@
 (defn about-item
   "Helper fn to make the individual bio items"
   [name link img subtitle & bio]
-  [:div#indi
+  [:div#about-item
    [:h1 name]
    [:h2
     [:a.img {:href link} [:img {:src img :name name}]]
