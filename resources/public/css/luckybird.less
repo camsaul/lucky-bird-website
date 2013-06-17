@@ -1,9 +1,9 @@
 @charset "UTF-8";
 
 /* VERTICAL ALIGNMENT HACKS */
+
 /* Stick a span.cvhelper next to the elment you want to be vertically centered, then give that element the
    vertical-align: middle; property. */
-
 .cvhelper {
     display: inline-block;
     height: 100%;
@@ -11,65 +11,51 @@
 }
 
 /* GENERAL */
-
 @white: #ffffff;
 @light-green: #44B34B;
 @dark-green: #25A325;
-
 @very-light-gray: #333;
 @light-gray: #707870;
 @dark-gray: #485248;
-
 @mobilemuni-red: #601213;
-
 a:link {
     text-decoration: none;
     color: #333;
 }
-
 a:visited {
     text-decoration: none;
     color: #333;
 }
-
 a:hover {
     text-decoration: none;
     color: #666;
 }
-
 a:active {
     text-decoration: none;
 }
-
 h1,h2,h3,h4,h5,h6 {
     font-family: "Droid Serif","Ubuntu","Times New Roman", "Palatino Linotype", "Book Antiqua", Palatino, serif;
 }
-
 h1 {
     /* font-size: 36px; */
     color: #666;
 }
-
 h2 {
     /* font-size: 36px; */
     color: white;
     text-align: center;
 }
-
 h3 {
     color: white;
 }
-
 img {
     border: 0;
 }
-
 .gray {
     color: @dark-gray;
 }
 
 /* HEADER */
-
 header {
     background-color:#FFF;
     width: 100%;
@@ -81,70 +67,61 @@ header {
     .row div {
 	height: 120px;
     }
-    
-	
-	ul#topnav {
-	    margin:40px 0px 0px 0px;
-		padding:0;
-		list-style:none;
-		float: right;
-		font-style: "Droid Serif","Ubuntu",
+    ul#topnav {
+	margin:40px 0px 0px 0px;
+	padding:0;
+	list-style:none;
+	float: right;
+	font-style: "Droid Serif","Ubuntu",
     }
-    
     ul#topnav li {
-	    display: inline;
-	    font-size: 20px;
-	    font-style: "Droid Serif","Ubuntu";
+	display: inline;
+	font-size: 20px;
+	font-style: "Droid Serif","Ubuntu";
     }
-    
-        
     ul#topnav li a{
- text-decoration:none;
- padding:10px 0;
- width:100px;
- background: white;
- color: @dark-green;
- float:left;
- text-align:center;
- border-left: 1px solid @dark-green;
-}	    
- ul#topnav li a:hover {
- background:@dark-green;
-  color: @white;
- }
+	text-decoration:none;
+	padding:10px 0;
+	width:100px;
+	background: white;
+	color: @dark-green;
+	float:left;
+	text-align:center;
+	border-left: 1px solid @dark-green;
+    }	    
+    ul#topnav li a:hover {
+	background:@dark-green;
+	color: @white;
+    }
     img {
 	width: 316px;
 	height: 79px;
 	vertical-align: middle;
- }
+    }
 }    
-    
-/* The optional page title, e.g. "BandFunk" */
-    #app_page {
-	height: 90px;
-	width: 380px;
-	margin-left: 0px;
-	margin-top: 30px;
-	float: left;
-	font-family: "Droid Serif","Ubuntu", "Times New Roman", Times, serif;
-	font-size: 24px;
-	font-weight: bold;
-	color: @dark-green;
-    
-    }
-    
-    iframe#facebook {
-	border:none;
-	overflow:hidden;
-	height:35px;
-	vertical-align: middle;
-    }
 
+/* The optional page title, e.g. "BandFunk" */
+#app_page {
+    height: 90px;
+    width: 380px;
+    margin-left: 0px;
+    margin-top: 30px;
+    float: left;
+    font-family: "Droid Serif","Ubuntu", "Times New Roman", Times, serif;
+    font-size: 24px;
+    font-weight: bold;
+    color: @dark-green;
+}
+iframe#facebook {
+    border:none;
+    overflow:hidden;
+    height:35px;
+    vertical-align: middle;
+}
 
 /* HOME */
 @gradient-inner-color: @white;
 @gradient-outer-color: @white;
-
 .green-gradient-background {
     /* IE10 Consumer Preview */ 
     background-image: -ms-radial-gradient(center, circle farthest-corner, 
@@ -168,9 +145,7 @@ header {
 }
 
 /* Home Page AKA Index */
-
 #home {
-    
     width: 100%;
     margin-top: 0px;
     -moz-box-shadow: 1px 3px 3px #333;
@@ -180,7 +155,6 @@ header {
     position: relative;
     .container {
 	padding-top: 60px;
-	
     }
     h1 {
 	text-align: center;
@@ -196,76 +170,58 @@ header {
 	margin-left: auto;
 	font-family:"Arvo","Open Sans","Source Sans Pro","Verdana","Times New Roman", Times, serif;
 	color: @dark-green;
-	}
-	img {
-	    display: block;
-	    margin-left: auto;
-	    margin-right: auto;
-	    
-	}
-	
-	img#store {
-		margin: 50px;
-    padding: 20px;
-    margin-right: 0px;
-    border-top-width: 2px;
-    border-bottom-width: 2px;
-    border-top-style: solid;
-    border-bottom-style: solid;
-    border-top-color: @dark-green;
-    border-bottom-color: @dark-green;
-    
-    float: left
-	}
-	
     }
-    
-    
+    img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+    }
+    img#store {
+	margin: 50px;
+	padding: 20px;
+	margin-right: 0px;
+	border-top-width: 2px;
+	border-bottom-width: 2px;
+	border-top-style: solid;
+	border-bottom-style: solid;
+	border-top-color: @dark-green;
+	border-bottom-color: @dark-green;
+	float: left
+    }
+}
+
 /* App Page */
-    
 .app-bullet-point {
-	height: 250px;
+    height: 250px;
+    color: black;
+    padding-top: 11px;
+    /* p text for app pages */	
+    p {
+	font-family: "Arvo","Open Sans","Source Sans Pro","Verdana", "Times New Roman", Times, serif;
+	font-size: 15px;
 	color: black;
-	padding-top: 11px;
-	
-	/* p text for app pages */	
-	
-	p {
-	    font-family: "Arvo","Open Sans","Source Sans Pro","Verdana", "Times New Roman", Times, serif;
-	    font-size: 15px;
-	    color: black;
-	    line-height: 24px;
-	    text-align: center;
-	    padding-top: 0px;
-	    padding-bottom: 10px;
-	}
-
-	
-	h2 {
-	    color: @mobilemuni-red;
-	    height: 55px;
-	    font-size: 25px;
-	    line-height: 30px;
-	    padding-bottom: 3px;
-	    
-	}
-	    img {
-	    display: block;
-	    margin-left: auto;
-	    margin-right: auto;
-	    padding-top: 0px;
-	}
-	
-	
-	
+	line-height: 24px;
+	text-align: center;
+	padding-top: 0px;
+	padding-bottom: 10px;
     }
-
-
+    h2 {
+	color: @mobilemuni-red;
+	height: 55px;
+	font-size: 25px;
+	line-height: 30px;
+	padding-bottom: 3px;
+    }
+    img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 0px;
+    }
+}
 
 /* Mozilla Ignite Page */
-
 #mozilla {
-    
     width: 100%;
     margin-top: 0px;
     -moz-box-shadow: 1px 3px 3px #333;
@@ -286,48 +242,40 @@ header {
 	padding-top: 19px;
 	font-weight: 400
     }
-	ul {
+    ul {
 	padding-bottom: 15px;
-	} 
+    } 
     li {
 	font-family: "Arvo","Open Sans","Source Sans Pro","Verdana","Times New Roman", Times, serif;
 	font-size: 17px;
 	color: black;
 	line-height: 145%;
 	padding-top: 6px
-
-}
-
+    }
     p {
 	font-family: "Arvo","Open Sans","Source Sans Pro","Verdana", "Times New Roman", Times, serif;
 	font-size: 17px;
 	line-height: 150%;
 	padding-top: 13px;
 	color: black;
-
     }
     hr {
-	     border: 0;
-    height: 1px;
-    background-image: -webkit-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0)); 
-    background-image:    -moz-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0)); 
-    background-image:     -ms-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0)); 
-    background-image:      -o-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0)); 
-    margin-bottom: 27px
+	border: 0;
+	height: 1px;
+	background-image: -webkit-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0)); 
+	background-image:    -moz-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0)); 
+	background-image:     -ms-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0)); 
+	background-image:      -o-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0)); 
+	margin-bottom: 27px
     }
     p#itext {
-	    font-size: 17px;
-	    text-align: center;
-	    
+	font-size: 17px;
+	text-align: center;
     }
-
     A:link {color: @dark-green;}
     A:visited {color: @dark-gray;}
     A:active {color:  @dark-green;}
     A:hover {font-size: 17px; color: @dark-green;}
-    
-   
-    
     img {
 	display: block;
 	margin-left: auto;
@@ -335,75 +283,60 @@ header {
 	float: right; 
 	margin: 20px 0px 20px 40px;
     }
-    
-    
-       
 }
-
 div#about {
-	margin-left:auto;
+    margin-left:auto;
     margin-right:auto;
     width:960px;
 }
 
 /* About Page */
-
-
 #about {
-    
-       
     position: relative;
     width: auto;
-    	
     .container {
-    
 	width: auto;
 	position: relative;
 	padding-top: 25px;
 	padding-bottom: 110px;
-	
     }
-    
-        
-div#indi {
-	height: 330px;
+    div#indi {
+//	height: 400px;		
+	line-height: 26px;
+	padding-bottom: 50px;
+	h2 {
+	    i {
+		line-height: 24px;
+	    }
 	}
-    
-div {
-	padding-top: 5px;
-	padding-bottom: 3px;
-	
-	
-
-    
-    p#team {
-	    float: right;
+	img {
+	    display: block;
+	    float: left;
+	    border-style: solid;
+	    border-width: 1px;
+	    height: 200px;
+	    width: 200px;
+	    margin: 0px 20px 0px 0px;
+	}   
     }
-    
-}    
-
-p#intro {
+    p#intro {
 	text-align: center;
 	font-size: 46px;
 	padding-bottom: 2px;
 	padding-top: 25px;
 	color: @dark-green;
 	font-weight:  400
-	
-}
-
-hr {
-	     border: 0;
-    height: 1px;
-    background-image: -webkit-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0)); 
-    background-image:    -moz-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0)); 
-    background-image:     -ms-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0)); 
-    background-image:      -o-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0)); 
-    margin-bottom: 70px
     }
-
-
-h1 {
+    hr {
+	border: 0;
+	height: 1px;
+	background-image: -webkit-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0)); 
+	background-image:    -moz-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0)); 
+	background-image:     -ms-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0)); 
+	background-image:      -o-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0)); 
+	margin-bottom: 70px
+    }
+    h1 {
 	text-align: center;
 	color: @dark-green;
 	font-size: 33px;
@@ -412,9 +345,7 @@ h1 {
 	margin: 0px 0px 21px 30px;
 	font-weight: bold
     }
-
-    
-h2 {
+    h2 {
 	text-align: left;
 	color: @dark-green;
 	font-size: 22px;
@@ -423,53 +354,31 @@ h2 {
 	margin: 0px 0px 11px 0px;
 	font-weight: 400
     }
-
-    
     p {
 	font-family:"Arvo","Open Sans","Source Sans Pro","Verdana","Times New Roman", Times, serif;
 	font-size: 20px;
 	line-height: 145%;
 	padding-top: 10px;
 	color: black;
-
     }
-    
-	A:link {color: @dark-green;}
-    A:visited {color: @dark-gray;}
-    A:active {color:  @dark-green;}
-    A:hover {font-size: 20px; color: @dark-green;}
-   
-    A.img:link {color: black;}
-    A.img:visited {color: black;}
-    A.img:active {color:  black;}
-    A.img:hover {color: black;}
-   
-    img {
-	display: block;
-	float: left;
-	
-	border-style: solid;
-	border-width: 1px;
-	height: 200px;
-	width: 200px;
-	margin: 0px 20px 0px 0px;
-    }   
+    a:link {color: @dark-green;}
+    a:visited {color: @dark-gray;}
+    a:active {color:  @dark-green;}
+    a:hover {font-size: 20px; color: @dark-green;}
+    a.img:link {color: black;}
+    a.img:visited {color: black;}
+    a.img:active {color:  black;}
+    a.img:hover {color: black;}
 }
 
-
 /* (APP PAGE) */
-
 #appstore-links {
-    
-  	margin-top: 0px;
+    margin-top: 0px;
     border-bottom-width: thin;
     border-bottom-style: solid;
     border-bottom-color: #666;
     text-align: center;
-    
-    
-    
-a {
+    a {
 	margin-top: 0px;
 	padding: 20px;
 	height: 100px;
@@ -480,8 +389,6 @@ a {
 	font-size: 18px;
 	font-weight: bold;
 	color: @light-gray;
-	
-
     }
 }
 
@@ -516,15 +423,14 @@ a {
 	    padding: 0px 0px;
 	}
 	p {
-	    padding-top: 6px;
-
+	    padding-top: 6px;	   
 	    height: 0px;
-	    font-family: "Arvo","Open Sans","Source Sans Pro","Verdana","Times New Roman", Times, serif;	}
+	    font-family: "Arvo","Open Sans","Source Sans Pro","Verdana","Times New Roman", Times, serif;	
+	}
     }
 }
 
 /* OUR APPS (Home PAGE)*/
-
 @our-apps-gradient-inner: @light-green;
 @our-apps-gradient-outer: @dark-green;
 
@@ -558,18 +464,15 @@ a {
     box-shadow: 1px 3px 3px #333;
     position: relative;
     z-index: 8;
-    
     h2 {
-	    font-size: 33px;
-	    padding-bottom: 25px;
-	     } 
-    
-#apps {
+	font-size: 33px;
+	padding-bottom: 25px;
+    } 
+    #apps {
 	height: 160px;
 	margin-top: 10px;
 	margin-left: auto;
 	margin-right: auto;
-	
 	.app {
 	    height: 100px;
 	    display: inline-block;
@@ -581,80 +484,19 @@ a {
 	    font-size: 17px;
 	    font-weight: bold;
 	    text-align: center;
-	    color: #FFF;
-	    
-	    
+	    color: #FFF;	    
 	    .icon {
 		height: 125px;
 		width: 125px;
 		margin-left: auto;
-	    margin-right: auto;
-	    padding-bottom: 10px;
+		margin-right: auto;
+		padding-bottom: 10px;
 	    }
 	}
     }
 }
-
-/* Other Apps Home Div */
-
-/*
-#otherapps {
-
-	margin-left: auto;
-	margin-right: auto;
-	background-color: #E5E7C1;
-    background-position: fixed;
-    width: 100%;
-    margin-top: 0px;
-    padding-top: 20px;
-    -moz-box-shadow: 1px 3px 3px #333;
-    -webkit-box-shadow: 1px 3px 3px #333;
-    box-shadow: 1px 3px 3px #333;
-    position: relative;
-  
-    
-h2 {
-	text-align: center;
-	padding-bottom: 25px;
-	color: black;
-	font-size: 33px;
-    }
-    
-#apps {
-	height: 205px;
-	margin-top: 10px;
-	
-	
-.app {
-	    height: 95px;
-	    display: inline-block;
-	    vertical-align: middle;
-	    padding-left: 20px;
-	    padding-right: 20px;
-	    width: 180px;
-	    font-family: "Arvo","Open Sans","Source Sans Pro","Verdana","Times New Roman", Times, serif;
-	    font-size: 17px;
-	    font-weight: bold;
-	    text-align: center;
-	    color: black;
-	    
-	    
-	    .icon {
-		height: 125px;
-		width: 125px;
-		margin-left: auto;
-	    margin-right: auto;
-	    padding-bottom: 10px;
-	    }
-	}
-    }
-    
-    
-}
-*/
 
 /* Awards Home Div */
-
 #awards {
     background-color: white;
     background-position: fixed;
@@ -674,38 +516,29 @@ h2 {
 	color: @dark-green;
 	font-size: 33px;
     }
-    
-#apps {
+    #apps {
 	height: 155px;
 	margin-top: 10px;
 	margin-left: auto;
 	margin-right: auto;
-	
-.app {
+	.app {
 	    display: inline-block;
 	    vertical-align: middle;
 	    padding-left: 110px;
 	    padding-right: 0px;
-	   
 	    font-family: "Arvo","Open Sans","Source Sans Pro","Verdana","Times New Roman", Times, serif;
 	    font-size: 17px;
 	    font-weight: bold;
 	    text-align: center;
-	    color: @dark-green;
-	    
-	    
-	    	}
-    }
-    
-    
+	    color: @dark-green;	    	    
+	}
+    }        
 }
 
-
 /* FOOTER */
-
 #footer {
     background: url(http://getluckybird.com/images/Luckybird_footer.jpg);
-    background-repeat: repeat-x;
+		    background-repeat: repeat-x;
     background-size: 100%;
     background-size: 100% 100%; /* w3 spec - no browser supports it yet */
     -moz-background-size: 100% 100%; /* used for firefox */
@@ -721,14 +554,13 @@ h2 {
 	ul {
 	    color: @dark-green;
 	    b {
-		    color: @dark-green;
+		color: @dark-green;
 	    }
 	    li {
 		font-family:"Droid Serif","Ubuntu","Times New Roman", Times, serif;
 		font-size: 18px;
 		line-height: 26px;
-		list-style-type: none;	
-			
+		list-style-type: none;			
 	    }
 	}
     }

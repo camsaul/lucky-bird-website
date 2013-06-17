@@ -1,6 +1,7 @@
 (ns website.shared
   (:use hiccup.core
-        hiccup.page))
+        hiccup.page)
+  (:require [clojure.string :as str]))
 
 (defn container-and-row
   [& forms]
@@ -15,7 +16,10 @@
   [:ul
    (map #(vector :li %) items)])
 
-
+(defn with-links
+  "utility to write a string with a lot of links in it. replaces things in brackets like this: [http://camsaul.com my link] with proper <a> links."
+  [& s]
+  (str/replace (apply str s) #"\[([^\s]+)\s([^\]]+)]" "<a href=\"$1\">$2</a>"))
 
 (defn header [title]
   [:header
