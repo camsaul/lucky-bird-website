@@ -6,4 +6,4 @@ echo "Make sure you have the Clojure server running on port 3000, b! 'lein ring 
 wget -r "localhost:3000" -nH
 
 git commit -am "updated output"
-git push
+git push origin gh-pages
